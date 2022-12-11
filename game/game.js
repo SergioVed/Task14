@@ -155,6 +155,7 @@ window.onload = function () {
 
     if (currentScore >= winningScore){
       alert("You won")
+      currentScore = 0
     }
   }
 
